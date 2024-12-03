@@ -28,6 +28,8 @@ const menuItemSchema = new mongoose.Schema({
     }
 })
 
+// it's for checking to git 
+
 const MenuItem = mongoose.model('MenuItem', menuItemSchema);
 
 module.exports = MenuItem;
